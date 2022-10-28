@@ -23,12 +23,10 @@ p{
     position:absolute;
     left:85%;
 }
-#dd1{
-    width: auto;
-}
+
 .dropup-menu #dd1{
     width: 43vw;
-    float: right;
+    
     
 }
 
@@ -128,7 +126,10 @@ footer{
     text-shadow: 3px 3px 5px rgba(219, 0, 219, 0.801);
     padding: 10px;
 }
-
+/* .dropdown-toggle{
+    width: 50%;
+    margin-left: -30%;
+} */
 
 #gifRegistrar{
     margin-left: 10%;
