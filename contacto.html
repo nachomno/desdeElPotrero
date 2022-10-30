@@ -18,34 +18,37 @@
 <body>
   <header>
     <!-- place navbar here -->
-    <div id="header" class="container-fluid p-2 bg-dark text-white text-center" >
-      <h1 >Desde El Potrero</h1>
+    <div id="header" class="col-auto container-fluid p-2 bg-dark text-white text-center" >
+      <h1 id="title">Desde El Potrero</h1>
       <nav class="navbar navbar-expand-sm navbar-dark">
         <div class="container-fluid">
           
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="equipos.html">Equipos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="comprar.html">Comprar</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="navbar-brand" href="#">Contacto</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="registrarse.html">Registrarse</a>
-                    </li>
-          
-                </ul>
-            </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index2.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="equipos.html">Equipos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="comprar.html">Comprar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="noticias.html">Noticias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="chat.html">Chat</a>
+              </li>
+              <li class="nav-item">
+                <a class="navbar-brand" href="#">Contacto</a>
+              </li>
+              
+            </ul>
+          </div>
         </div>
       </nav>
     </div>
@@ -54,11 +57,11 @@
     <div class="container">
         <form class="row g-3 mt-3">
             <div class="col-6">
-                <label for="inputAdress" class="form-label text-light">Nombre Completo</label>
+                <label for="inputAdress" class="form-label text-light row">Nombre Completo</label>
                 <input type="text" class="form-control" id="inputAddress">
             </div>
             <div class="col-6">
-                <label for="emailInput" class="form-label text-light">Email</label>
+                <label for="emailInput" class="form-label text-light row">Email</label>
                 <input type="email" class="form-control" id="emailInput">
             </div>
             <div class="form-group col-12">
@@ -68,9 +71,11 @@
                 </div>
             </div>
             <div class="col-6 botReg">
-                <button class="btn btn-primary botReg" type="button" id="dd1" data-bs-toggle="dropdown" style="width:39vw;">
+              <a href="contacto.html">
+                <button class="btn btn-primary " type="button" id="dd1" style="width:39vw;">
                   Enviar
                 </button>
+              </a>
               </div>
         </form>
     </div>
