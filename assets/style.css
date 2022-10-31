@@ -7,10 +7,10 @@ body{
 }
 header{
     background-color: rgb(20, 33, 43); 
-    height: 20vh;
-    display: flex;
     
-    align-items: center;
+    /* display: flex; */
+    
+    /* align-items: center; */
 }
 a:link{
     
@@ -52,7 +52,7 @@ nav{
 .boton:hover{background: green;}
 
 .title{
-    font-size: 50px;
+    /* font-size: 50px; */
     /* top: 152vw; */
     /* background-color: rgba(245, 172, 16, 0.801);  */
     /* -webkit-text-stroke: 0.08rem rgb(15, 8, 8); */
@@ -64,7 +64,7 @@ nav{
 }
 
 #title{
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 @media (max-width:600px) {
     #title{
